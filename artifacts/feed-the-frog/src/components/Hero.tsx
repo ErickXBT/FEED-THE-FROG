@@ -26,7 +26,7 @@ export function Hero() {
               FEED<br />THE<br /><span className="text-primary">FROG</span>
             </h1>
             <p className="text-xl md:text-2xl text-foreground/80 mb-10 font-medium tracking-wide max-w-lg">
-              The hungriest frog on the blockchain
+              Eat flies. Stack gains. Feed the frog.
             </p>
 
             <div className="flex flex-col sm:flex-row items-start gap-4">
