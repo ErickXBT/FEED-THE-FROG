@@ -15,10 +15,10 @@ export function Community() {
           transition={{ duration: 0.6 }}
           className="max-w-3xl mx-auto"
         >
-          <h2 className="text-5xl md:text-6xl font-bold font-orbitron text-white mb-6 tracking-widest drop-shadow-[0_0_15px_rgba(0,255,65,0.6)]">
+          <h2 className="text-3xl sm:text-5xl md:text-6xl font-bold font-orbitron text-white mb-6 tracking-widest drop-shadow-[0_0_15px_rgba(0,255,65,0.6)]">
             JOIN THE POND
           </h2>
-          <p className="text-2xl text-primary font-medium mb-12">
+          <p className="text-lg sm:text-2xl text-primary font-medium mb-8 sm:mb-12">
             The frog needs you. The pond is calling.
           </p>
 

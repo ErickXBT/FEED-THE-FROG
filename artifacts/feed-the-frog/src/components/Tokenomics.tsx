@@ -32,10 +32,10 @@ export function Tokenomics() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: idx * 0.2 }}
-                  className="bg-background/80 border border-primary/30 p-6 rounded-xl flex items-center justify-between hover:border-primary hover:shadow-[0_0_15px_rgba(0,255,65,0.2)] transition-all"
+                  className="bg-background/80 border border-primary/30 p-4 sm:p-6 rounded-xl flex items-center justify-between gap-4 hover:border-primary hover:shadow-[0_0_15px_rgba(0,255,65,0.2)] transition-all"
                 >
-                  <span className="text-foreground/70 uppercase tracking-widest font-semibold">{stat.label}</span>
-                  <span className="font-orbitron font-bold text-2xl md:text-3xl text-white drop-shadow-[0_0_10px_rgba(0,255,65,0.5)]">{stat.value}</span>
+                  <span className="text-foreground/70 uppercase tracking-widest font-semibold text-sm sm:text-base shrink-0">{stat.label}</span>
+                  <span className="font-orbitron font-bold text-lg sm:text-2xl md:text-3xl text-white drop-shadow-[0_0_10px_rgba(0,255,65,0.5)] text-right break-all">{stat.value}</span>
                 </motion.div>
               ))}
             </div>

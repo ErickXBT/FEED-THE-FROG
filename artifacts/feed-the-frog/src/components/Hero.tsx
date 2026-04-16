@@ -20,12 +20,12 @@ export function Hero() {
             className="flex-1 text-left"
           >
             <h1
-              className="text-5xl md:text-7xl lg:text-8xl font-black font-orbitron mb-6 text-white leading-tight"
+              className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black font-orbitron mb-6 text-white leading-tight"
               style={{ textShadow: '0 0 20px hsl(var(--primary)), 0 0 40px hsl(var(--primary))' }}
             >
               FEED<br />THE<br /><span className="text-primary">FROG</span>
             </h1>
-            <p className="text-xl md:text-2xl text-foreground/80 mb-10 font-medium tracking-wide max-w-lg">
+            <p className="text-base sm:text-xl md:text-2xl text-foreground/80 mb-8 sm:mb-10 font-medium tracking-wide max-w-lg">
               Eat flies. Stack gains. Feed the frog.
             </p>
 
